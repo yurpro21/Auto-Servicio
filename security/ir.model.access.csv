@@ -1,0 +1,5 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_auto_service,auto_service.auto_service,model_auto_service,base.group_user,1,1,1,1
+access_services_report,auto_service.services_report,model_services_report,base.group_user,1,1,1,1
+access_services_vehicle_report,auto_service.services_vehicle_report,model_services_vehicle_report,base.group_user,1,1,1,1
+

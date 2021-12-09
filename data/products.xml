@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<odoo>
+    <data noupdate="1">
+
+        <record forcecreate="True" id="cfg_product_auto_services" model="product.product">
+            <field name="name">Cambio del filtro de gasolina y aire</field>
+            <field name="type">service</field>
+            <field name="is_auto_service">True</field>
+        </record>
+
+        <record forcecreate="True" id="cr_product_auto_services" model="product.product">
+            <field name="name">Cambio de Refrigerante</field>
+            <field name="type">service</field>
+            <field name="is_auto_service">True</field>
+        </record>
+
+        <record forcecreate="True" id="cfa_product_auto_services" model="product.product">
+            <field name="name">Cambio de la faja del alternador</field>
+            <field name="type">service</field>
+            <field name="is_auto_service">True</field>
+        </record>
+
+        <record forcecreate="True" id="cta_product_auto_services" model="product.product">
+            <field name="name">Ajuste del tiempo de encendido</field>
+            <field name="type">service</field>
+            <field name="is_auto_service">True</field>
+        </record>    
+
+
+        <record forcecreate="True" id="rlf_product_auto_services" model="product.product">
+            <field name="name">Revisión de las luces y los faros</field>
+            <field name="type">service</field>
+            <field name="is_auto_service">True</field>
+        </record>
+
+
+        <record forcecreate="True" id="ac_product_auto_services" model="product.product">
+            <field name="name">Ajuste del clutch</field>
+            <field name="type">service</field>
+            <field name="is_auto_service">True</field>
+        </record>
+
+        <record forcecreate="True" id="rncb_product_auto_services" model="product.product">
+            <field name="name">Revisión de los niveles de: la caja, la batería e hidráulico</field>
+            <field name="type">service</field>
+            <field name="is_auto_service">True</field>
+        </record>
+
+        <record forcecreate="True" id="rft_product_auto_services" model="product.product">
+            <field name="name">Revisión de los frenos y el tren delantero</field>
+            <field name="type">service</field>
+            <field name="is_auto_service">True</field>
+        </record>
+
+        <record forcecreate="True" id="rtb_product_auto_services" model="product.product">
+            <field name="name">Limpieza de terminales de batería</field>
+            <field name="type">service</field>
+            <field name="is_auto_service">True</field>
+        </record>        
+
+        <record forcecreate="True" id="caf_product_auto_services" model="product.product">
+            <field name="name">Cambio de aceite y filtro</field>
+            <field name="type">service</field>
+            <field name="is_auto_service">True</field>
+        </record>
+
+        <record forcecreate="True" id="cb_product_auto_services" model="product.product">
+            <field name="name">Cambio de bujías</field>
+            <field name="type">service</field>
+            <field name="is_auto_service">True</field>
+        </record>        
+
+
+
+        <!-- End of WH Rates -->
+	</data>
+</odoo>

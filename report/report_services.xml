@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+      
+    <report
+        id="action_report_auto_services"
+        model="reports.services"
+        report_type="qweb-pdf"
+        string="Reporte Servicios"
+        name="auto_service.report_auto_services"
+        file="auto_service.report_auto_services"
+        menu="False"
+        print_report_name="'Reporte_%s' %(object.report_type)"
+
+        
+        
+
+
+    />
+
+
+
+<template id="report_auto_services">
+    <t t-call="web.basic_layout">
+    <t t-call="web.external_layout"> 
+     <t t-foreach="docs" t-as="doc">
+ 
+
+        <div class="page">
+         
+              
+                       <div style="font-size: 11px !important;">
+                      <h3 class="text-center">Reporte</h3>
+                      
+
+                      <div class="clearfix"></div>
+                      </div>
+                      
+                      <table class="table-bordered w-100 abando_border" style="font-size: 10px !important;">
+                        <thead style="background-color: #14529A; color: #FFFFFF;">
+
+                          <tr>
+                            <th>Nombre de Servicio</th>
+                            <th>Cantidad</th>
+                            <th>Monto Facturado</th>
+
+                            
+                          </tr>
+                        </thead>
+
+
+
+                      
+                      </table>
+
+                        </div>
+                    </t>
+                </t> 
+           
+         </t>
+      </t>
+    </template>
+
+</odoo>
